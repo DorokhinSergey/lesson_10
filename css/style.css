@@ -1,0 +1,187 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap&subset=cyrillic-ext");
+
+
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  font-family: "Poppins"; 
+  line-height: 1;
+  background-color: grey;
+  
+}
+.wrapper {
+	min-height: 100%;
+    overflow: hidden;
+    padding: 200px 0px;
+    font-family: 'Roboto';
+}
+
+
+
+
+
+
+.impact{
+  background: #29C3BE url(../img/Blob2.png) 0 0 no-repeat;
+
+}
+
+
+.impact__container{
+  max-width: 1440px;
+    margin:0px auto;
+    padding: 112px 0px 212px 212px;
+    
+}
+
+.impact__box{
+  display: inline-block;
+  margin-bottom: 79px;
+}
+
+
+.impact__title{
+  color: #FFF;
+  font-weight: 700;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding-left: 36px;
+    margin-bottom: 32px;
+}
+
+.impact__title::before{
+content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    background: url(../img/iconn.svg) 0 0 no-repeat;
+    margin: 0px 16px 0px -36px;}
+
+    .impact__text{
+      color: #FFF;
+      max-width: 483px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 117%;
+    }
+
+
+    .impact__container_img{
+      text-align: right;
+      margin: -200px 200px -135px 0px;
+    }
+
+    .imgdog{
+      border-radius: 30px;
+    }
+    
+
+
+    .impact__item{
+    vertical-align: top;
+    }
+    
+    .item_conteiner_title{color: #FFF;
+      font-size: 36px;
+      font-weight: 900;
+      margin: 0px 0px 3px 0px;
+      line-height: 100%;
+    
+    }
+    .item_conteiner_text{
+      color: #5D62B5;
+      font-size: 16px;
+      line-height: 128%;
+      letter-spacing: 0.15px;
+    max-width: 125px;
+    }
+
+
+
+  .impact__item_conteiner{
+    display: inline-block;
+    max-width: 313px;
+  }
+
+  .impact__item_img{
+    display: inline-block;
+    width: 76px;
+    margin-right: 11px;
+  }
+
+  .item_conteiner__box{
+    display: inline-block;
+    width: 143px;
+  }
+
+
+  .impact__item_conteiner:not(:last-child) {
+    margin-right: 22px;}
